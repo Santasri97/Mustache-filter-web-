@@ -1,0 +1,19 @@
+h3 {
+    font-size: 25px ;
+}
+.btn-success:hover {
+    background-color: red;
+}
+canvas {
+    animation-name: santasri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes santasri {
+    from {box-shadow: 10px 10px 40px red;}
+    to {box-shadow: 10px 10px 40px lime;}
+
+    from {box-shadow: 10px 10px 40px magenta;}
+    to {box-shadow: 10px 10px 40px aqua;}
+}
